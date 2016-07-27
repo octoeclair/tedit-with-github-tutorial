@@ -26,4 +26,5 @@ One is the repo in your Tedit Developer Environment, the other is the repo in yo
   1. If the editor says something like "No changes to sync." you are good to go! It means you are up to date and have to changes to pull.
   2. If the editor opens a prompt box like this, ![Pull Changes?](https://raw.githubusercontent.com/octoeclair/tedit-with-github-tutorial/master/imgs/tedit-tut-im-behind.png) simply click "Yes" and Tedit will update your repo.
 2. Edit. Create files, edit files, delete files, do whatever you want. When you feel like you are at a good stopping point, move on to the next step.
-3. *Commit* your changes. Changes are grouped into *commits*. Instead of updating the main repo on Github everytime you change a single character, you push commits instead. This everything a lot more organized.
+3. *Commit* your changes. Changes are grouped into *commits*. Instead of updating the main repo on Github everytime you change a single character, you push commits instead. This everything a lot more organized. ![Why Git Uses Commits Meme](https://raw.githubusercontent.com/octoeclair/tedit-with-github-tutorial/master/imgs/Why%20Git%20Uses%20Commits.jpg)
+4. *Push* your changes. Right cl
