@@ -1,6 +1,7 @@
 #Collaborating with Github and Tedit - A Simple Tutorial
-#####**Tutorial in progress**
-###How to Clone a Repository
+###**Tutorial in progress**
+
+##How to Clone a Repository
 1. Download Tedit at https://chrome.google.com/webstore/detail/tedit-development-environ/ooekdijbnbbjdfjocaiflnjgoohnblgf?hl=en-US
 2. Right click on Tedit and select the option that says "Clone Github Repo".
 ![Clone Github Repository](https://raw.githubusercontent.com/octoeclair/tedit-with-github-tutorial/master/imgs/tedit-tut-clone-git.png)
@@ -18,9 +19,12 @@
 Of course, the exact values of the fields will be different for you as you use Github for different things, but you get the idea. If the box looks something like the example above, click "OK".
 7. Congratulations, you have successfully cloned your first github repository!
 
-###Pulling, Committing, and Pushing
+##Pulling, Committing, and Pushing
+
 In a nutshell, if you and your friend are working on one project, there are essentially three different git repos being used.
-One is the repo in your Tedit Developer Environment, the other is the repo in your friend's computer, and the final one is on Github. Luckily, all your repos are connected by a *remote*, so you can collaborate. Every time you make edits, you should follow this process.
+One is the repo in your Tedit Developer Environment, the other is the repo in your friend's computer, and the final one is on Github. Luckily, all your repos are connected by a *remote*, so you can collaborate. Every time you make edits, you should follow this process:
+
+### The *pull, commit, push* cycle.
 
 1. *Pull* in the newest version of the project by right-clicking on the repo folder and selecting "Sync with Remote". This is important, because the version of the repo you might be working on might be outdated. That is, your friend might have made some changes since the last time you worked on the repo. *Your repo doesn't update automatically, you have to explicity pull changes (update it) yourself!*
   1. If the editor says something like "No changes to sync." you are good to go! It means you are up to date and have no changes to pull.
@@ -35,3 +39,5 @@ One is the repo in your Tedit Developer Environment, the other is the repo in yo
   5. Click the "OK" button.
 4. *Push* your changes. Right click your repo folder and click "Sync with Remote". ![Pushing](https://raw.githubusercontent.com/octoeclair/tedit-with-github-tutorial/master/imgs/tedit-tut-sync-remote.png) A prompt will be opened asking you to confirm the push. ![Confirm Push](https://raw.githubusercontent.com/octoeclair/tedit-with-github-tutorial/master/imgs/tedit-tut-push.png) Click "Yes".
 5. Congratulations, you've just completed your first *pull, commit (sometimes multiple times), push* cycle!
+
+### What's going on?
